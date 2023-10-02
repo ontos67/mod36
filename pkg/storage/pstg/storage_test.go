@@ -9,7 +9,6 @@ import (
 
 func TestNew(t *testing.T) {
 	_, err := New()
-	//os.Setenv("agrigatordb", "user=postgres password=plazma dbname=agrigatordb sslmode=disable")
 	if err != nil {
 		t.Fatal(err)
 	}
